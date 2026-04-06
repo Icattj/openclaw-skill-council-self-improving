@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: Council Self-Improving
 description: Agent picks up patterns from how Lucy interacts and quietly improves how it responds to her specifically. Logs corrections, preferences, and patterns. Promotes patterns that repeat 3+ times to HOT memory (always loaded). Use after corrections, after significant work, or when you notice your output could be better.
@@ -78,3 +82,13 @@ Never delete without asking
 ## Lucy's Current HOT Memory
 
 Maintained in `~/self-improving/memory.md` — read it before responding.
+
+## Installation
+
+```bash
+cp -r council-self-improving/ ~/.openclaw/workspace/skills/council-self-improving/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
